@@ -1,8 +1,8 @@
 import React from "react";
-import Img1 from "./Images/img1.jpg";
-import Img2 from "./Images/img2.jpg";
-import Img3 from "./Images/img3.jpg";
-import Img4 from "./Images/img4.jpg";
+import Img1 from "./Images/Img1.jpg";
+import Img2 from "./Images/Img2.jpg";
+import Img3 from "./Images/Img3.jpg";
+import Img4 from "./Images/Img4.jpg";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { CiHeart } from "react-icons/ci";
