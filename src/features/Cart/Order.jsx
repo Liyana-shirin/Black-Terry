@@ -1,5 +1,5 @@
 import React from 'react'
-import img2 from "../Details/Images/img1.jpg"
+import img2 from "../Details/Images/Img1.jpg"
 import { AiOutlineDelete } from "react-icons/ai";
 import { RiUser3Line } from "react-icons/ri";
 import { HiOutlineShoppingBag } from "react-icons/hi2";
@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
 function Order() {
   return (
                  
-          <div className='flex flex-col lg:flex-row justify-between items-start m-4 lg:m-15 h-auto lg:h-screen gap-6'>
+  <div className='flex flex-col lg:flex-row justify-between items-start m-4 lg:m-15 h-auto lg:h-screen gap-6'>
   <div className='w-full lg:w-1/2 gap-5'>
     <h1 className='text-3xl font-semibold mb-5'>Your Order</h1>
 
