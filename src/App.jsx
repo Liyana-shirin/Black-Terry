@@ -5,7 +5,6 @@ import Shop from "./features/Shop/Shop";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import About from "./features/About/About";
-import Contact from "./features/Contact/contact";
 import LoginPage from "./Components/Login/Login";
 import LoginPage2 from "./Components/Login/Login2";
 import EmptyCart from "./features/Cart/EmptyCart";
@@ -16,6 +15,7 @@ import Buynow from "./features/buyNow/Buynow";
 import Sizechart from "./features/Details/Sizechart";
 import Profile from "./Components/Profile";
 import Order from "./features/Cart/Order";
+import Contact from "./features/Contact/Contact"
 
 // Create a layout component to handle conditional rendering
 const AppLayout = () => {
