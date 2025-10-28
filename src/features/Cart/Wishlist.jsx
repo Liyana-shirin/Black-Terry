@@ -44,7 +44,7 @@ function Wishlist() {
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4 lg:mb-0">
             WishList
           </h1>
-            <a href="/shop" className=" underline underline-offset-1 font-bold ">continue shopping</a>
+            <a href="/cart" className=" underline underline-offset-1 font-bold ">continue shopping</a>
           
         </div>
 

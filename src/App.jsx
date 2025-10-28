@@ -28,7 +28,7 @@ const AppLayout = () => {
       
       <main>
         <Routes>
-          <Route path="/shop" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/cart" element={<Shop />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />

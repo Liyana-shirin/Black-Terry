@@ -112,7 +112,7 @@ function Header() {
           {/* Left Links */}
           <ul className="hidden md:flex gap-8 text-gray-700 font-medium">
             <li>
-              <Link to="/shop" className={linkClass("/shop")}>
+              <Link to="/" className={linkClass("/shop")}>
                 NEW
               </Link>
             </li>
