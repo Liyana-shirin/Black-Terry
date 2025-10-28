@@ -3,8 +3,8 @@ import shirt from "../../images/shirt.jpg";
 import shirt2 from "../../images/shirt2.jpg";
 import { FaIndianRupeeSign } from "react-icons/fa6";
 import { GoHeart } from "react-icons/go";
-import Shopimg from "../../images/Shop.png";
- import shop2 from "../../images/shop2.png";
+import Shopimg from "../../images/shirt2.jpg";
+ import shop2 from "../../images/shop1.png";
 
 const Shop = () => {
   const [activeFilter, setActiveFilter] = useState('availability');

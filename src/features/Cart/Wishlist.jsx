@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { RiDeleteBin6Line } from "react-icons/ri";
 import { Link } from "react-router-dom";
+import img1 from "../../images/shirt3.jpg";
+import img2 from "../../images/shirt2.jpg"
+
 
 
 function Wishlist() {
@@ -13,17 +16,17 @@ function Wishlist() {
       size: "S",
       color: "GREY",
       quantity: 1,
-      image: "shirt4.jpg",
+      image: img1,
     },
     {
       id: 2,
-      name: "Womens Classic Top",
+      name: "Men's Retro Crew Neck T shirt",
       originalPrice: 1499,
       discountedPrice: 899,
       size: "M",
       color: "BLACK",
       quantity: 1,
-      image: "shirt3.jpg",
+      image: img2,
     },
   ]);
 
@@ -89,7 +92,7 @@ function Wishlist() {
            
           ))}
       <div>
-      <Link to="/shop">
+      <Link to="/cart">
         <button className="hover:bg-gray-300 border-gray-800 bg-gray-100 rounded-lg font-semibold w-68 h-80 mt-4 px-10 transition">
          <span className="text-5xl text-gray-500"> + </span>
         </button>

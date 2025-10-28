@@ -83,4 +83,4 @@ function Contact() {
   );
 }
 
-export default CSSontact;
+export default Contact;

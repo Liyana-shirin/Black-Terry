@@ -1,5 +1,5 @@
 import React from "react";
-import shirt5 from "../../images/shirt5.png";
+import shirt5 from "../Cart/Images/shirt5.png";
 
 function Cart3() {
   return (

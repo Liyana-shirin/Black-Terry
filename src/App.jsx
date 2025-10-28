@@ -15,7 +15,7 @@ import Buynow from "./features/buyNow/Buynow";
 import Sizechart from "./features/Details/Sizechart";
 import Profile from "./Components/Profile";
 import Order from "./features/Cart/Order";
-import Contact from "./features/Contact/Contact"
+import Contact from "./features/Contact/Contact";
 
 // Create a layout component to handle conditional rendering
 const AppLayout = () => {
